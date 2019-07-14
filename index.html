@@ -173,23 +173,24 @@
             </div>
         </section>
 
-        <section class="dishes">
+        <section class="dishes" id="test">
             <div class="container">
                 <div class="select">
                     <h2 class="dishes__title">
                         Featured Dishes
                     </h2>
-                    <div>
-                       <button class="dishes__select" aria-label="1 slide"></button>
+                    <div class="slider-nav">
+                       <!-- <button class="dishes__select" aria-label="1 slide"></button>
                        <button class="dishes__select" aria-label="2 slide"></button>
                        <button class="dishes__select" aria-label="3 slide"></button>
-                       <button class="dishes__select" aria-label="4 slide"></button>
+                       <button class="dishes__select" aria-label="4 slide"></button> -->
                     </div>
                 </div>
 
-                <div class="dishes__list">
+     
+                <div class="dishes__list ba-slider">
                     <div class="dishes__item">
-                        <img src="img/sint.png" alt="Fugiat nulla sint">
+                        <img src="img/sint.png" alt="Fugiat nulla sint" class="dishes__item--img">
                         <h3 class="dishes__item-title">
                             <span>Fugiat nulla sint</span>
                             <span>$30</span>
@@ -204,7 +205,7 @@
                         </div>
                     </div>
                     <div class="dishes__item">
-                        <img src="img/dolor.png" alt="Daute irure dolor">
+                        <img src="img/dolor.png" alt="Daute irure dolor" class="dishes__item--img">
                         <h3 class="dishes__item-title">
                             <span>Daute irure dolor</span>
                             <span>$24</span>
@@ -219,7 +220,7 @@
                         </div>
                     </div>
                     <div class="dishes__item">
-                        <img src="img/mollit.png" alt="Officia deserunt mollit">
+                        <img src="img/mollit.png" alt="Officia deserunt mollit" class="dishes__item--img">
                         <h3 class="dishes__item-title">
                             <span>Officia deserunt mollit</span>
                             <span>$60</span>
@@ -234,7 +235,7 @@
                         </div>
                     </div>
                     <div class="dishes__item">
-                        <img src="img/veniam.png" alt="Pim minim veniam">
+                        <img src="img/veniam.png" alt="Pim minim veniam" class="dishes__item--img">
                         <h3 class="dishes__item-title">
                             <span>Pim minim veniam</span>
                             <span>$17</span>
@@ -248,8 +249,69 @@
                             <img src="img/star-grey.png" alt="Star">
                         </div>
                     </div>
+                    <div class="dishes__item">
+                            <img src="img/sint.png" alt="Fugiat nulla sint" class="dishes__item--img">
+                            <h3 class="dishes__item-title">
+                                <span>Fugiat nulla sint</span>
+                                <span>$30</span>
+                            </h3>
+                            
+                            <div class="dishes__star">
+                                <img src="img/star.png" alt="Star">
+                                <img src="img/star.png" alt="Star">
+                                <img src="img/star.png" alt="Star">
+                                <img src="img/star.png" alt="Star">
+                                <img src="img/star-grey.png" alt="Star">
+                            </div>
+                        </div>
+                        <div class="dishes__item">
+                            <img src="img/dolor.png" alt="Daute irure dolor" class="dishes__item--img">
+                            <h3 class="dishes__item-title">
+                                <span>Daute irure dolor</span>
+                                <span>$24</span>
+                            </h3>
+                            
+                            <div class="dishes__star">
+                                <img src="img/star.png" alt="Star">
+                                <img src="img/star.png" alt="Star">
+                                <img src="img/star.png" alt="Star">
+                                <img src="img/star-grey.png" alt="Star">
+                                <img src="img/star-grey.png" alt="Star">
+                            </div>
+                        </div>
+                        <div class="dishes__item">
+                            <img src="img/mollit.png" alt="Officia deserunt mollit" class="dishes__item--img">
+                            <h3 class="dishes__item-title">
+                                <span>Officia deserunt mollit</span>
+                                <span>$60</span>
+                            </h3>
+                            
+                            <div class="dishes__star">
+                                <img src="img/star.png" alt="Star">
+                                <img src="img/star.png" alt="Star">
+                                <img src="img/star.png" alt="Star">
+                                <img src="img/star.png" alt="Star">
+                                <img src="img/star.png" alt="Star">
+                            </div>
+                        </div>
+                        <div class="dishes__item">
+                            <img src="img/veniam.png" alt="Pim minim veniam" class="dishes__item--img">
+                            <h3 class="dishes__item-title">
+                                <span>Pim minim veniam</span>
+                                <span>$17</span>
+                            </h3>
+                           
+                            <div class="dishes__star">
+                                <img src="img/star.png" alt="Star">
+                                <img src="img/star.png" alt="Star">
+                                <img src="img/star.png" alt="Star">
+                                <img src="img/star.png" alt="Star">
+                                <img src="img/star-grey.png" alt="Star">
+                            </div>
+                        </div>
                 </div>
 
+                
             </div>            
         </section>
 
@@ -361,5 +423,8 @@
         </div>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
